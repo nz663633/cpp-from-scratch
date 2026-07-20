@@ -1,0 +1,57 @@
+# Executable files
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# Debug symbols
+*.pdb
+*.ilk
+
+# Build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+cmake_install.cmake
+
+# IDE
+.vscode/
+.vs/
+.idea/
+
+# Visual Studio
+*.sln
+*.vcxproj*
+*.opensdf
+*.sdf
+*.ipch
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# MinGW/MSYS2
+*.gch
+
+# User files
+*.user
+*.userosscache
+*.suo
+
+# Misc
+.DS_Store
+browse.VC.db*
+.cache/
