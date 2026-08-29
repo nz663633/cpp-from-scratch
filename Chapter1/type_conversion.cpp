@@ -32,7 +32,6 @@ int main()
     float m = d;
 
     // 실수의 유효숫자를 최대 12자리로 늘림
-    cout << "m: " << m << endl;
     cout << std::setprecision(12) << m << endl;
 
     cout << "=====" << endl;
