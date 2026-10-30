@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Calc.h"
 
 using namespace std;
 
@@ -27,42 +28,6 @@ public:
     int getID()
     {
         return m_id;
-    }
-};
-
-class Calc
-{
-private:
-    int m_value;
-
-public:
-    Calc(int init_value)
-        : m_value(init_value)
-    {
-    }
-
-    // Calc 객체 자체를 참조로 반환
-    Calc &add(int value)
-    {
-        m_value += value;
-        return *this; // 현재 객체 자체를 참조로 반환
-    }
-
-    Calc &sub(int value)
-    {
-        m_value -= value;
-        return *this;
-    }
-
-    Calc &mult(int value)
-    {
-        m_value *= value;
-        return *this;
-    }
-
-    void print()
-    {
-        cout << m_value << endl;
     }
 };
 
